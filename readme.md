@@ -2,7 +2,7 @@
 
 ## Links
 
-- [GitHub](https://github.com/brunosimon/my-room-in-3d)
+- [GitHub](https://github.com/c-yyy/my-room-in-3d)
 - [Live](https://my-room.inpm.top)
 
 ## Setup
