@@ -36,7 +36,7 @@ export default class BouncingLogo
         this.model.group.position.z = 1.630
         this.scene.add(this.model.group)
 
-        this.model.texture = this.resources.items.threejsJourneyLogoTexture
+        this.model.texture = this.resources.items.xdLogoTexture
         this.model.texture.encoding = THREE.sRGBEncoding
 
         this.model.geometry = new THREE.PlaneGeometry(4, 1, 1, 1)

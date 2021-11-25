@@ -73,11 +73,11 @@ export default class World
     {
         this.pcScreen = new Screen(
             this.resources.items.pcScreenModel.scene.children[0],
-            'https://qiniu.laway.cn/lpcsoft/videoStream.mp4'
+            '/assets/videoStream.mp4'
         )
         this.macScreen = new Screen(
             this.resources.items.macScreenModel.scene.children[0],
-            'https://qiniu.laway.cn/lpcsoft/videoPortfolio.mp4'
+            '/assets/videoPortfolio.mp4'
         )
     }
 
