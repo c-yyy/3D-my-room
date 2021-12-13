@@ -50,7 +50,7 @@ export default class BouncingLogo
 
         this.model.mesh = new THREE.Mesh(this.model.geometry, this.model.material)
         this.model.mesh.scale.y = 0.359
-        this.model.mesh.scale.z = 0.424
+        this.model.mesh.scale.z = 0.100
         this.model.group.add(this.model.mesh)
 
         // Debug
@@ -111,7 +111,7 @@ export default class BouncingLogo
 
         this.animations.speed = {}
         this.animations.speed.z = 0.00061
-        this.animations.speed.y = 0.00037
+        this.animations.speed.y = 0.00061
 
         if(this.debug)
         {
